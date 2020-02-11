@@ -1,0 +1,793 @@
+@import url(../fonts/stylesheet.css);
+
+body{
+	font-family: 'myriadpro-regular';
+	background-color: #FFFFFF;
+}
+
+a{
+	text-decoration: none;
+	color: #000000;
+}
+/*------------------------------------------------------------------------------
+01 - ENCABEZADO PRINCIPAL
+------------------------------------------------------------------------------*/
+#wrapper{
+	margin: 0 auto;
+	width:1344px;
+	background-color: #e8e8e8;
+
+}
+
+
+#top{
+	height:130px;
+	border-top: 6px solid #f06060;
+	background-color: #FFFFFF;
+}
+
+#encabezadoPrincipal{
+	margin: 0 auto;
+	margin-top: 30px;
+	width:1080px;
+}
+
+#logo,
+#contact,
+#contactMail,
+#contactPhone,
+.datosContacto,
+.imagenContacto{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#contact{
+	position: relative;
+	float: right;
+	text-align: right;
+	margin-right: 0;
+}
+
+.datosContacto{
+	border-left: 2px solid #d7d7d7;
+	margin-top: 10px;
+}
+
+.datosContacto p{
+	padding: 0;
+	margin: 0;
+	margin-left: 15px;
+}
+
+/*------------------------------------------------------------------------------
+// ENCABEZADO PRINCIPAL
+------------------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------------------
+  POP UP
+------------------------------------------------------------------------------*/
+	
+	.popUp{
+		position: fixed;
+		margin: 5% 25%;
+		width:810px;
+		height:50px;
+		z-index: 20;
+		border-radius: 5px;
+		display: none;
+	}
+
+	.errorMessage{
+		background-color: #fae6e3;
+		color: #7e7674;
+		border: 2px solid #e05543;
+	}	
+
+	.doneMessage{
+		background-color: #ddf4e9;
+		color: #7e7674;
+		border: 2px solid #1bb869;
+	}
+
+	.popUpIcon{
+		position: relative;
+		display: inline-block;
+		vertical-align: middle;
+		margin-left: 20px;
+	}
+
+
+	.popUpTxt{
+		position: relative;
+		display: inline-block;
+		vertical-align: middle;
+	}
+
+	.popUpTxt span{
+		font-weight: bolder;
+	}
+
+
+/*------------------------------------------------------------------------------
+ // POP UP
+------------------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------------------
+02 - CONTENIDO 
+------------------------------------------------------------------------------*/
+
+#content{
+	margin: 0 auto;
+	width:1080px;
+}
+
+	/*------------------------------------------------------------------------------
+	03 - MENU
+	------------------------------------------------------------------------------*/
+
+
+	#menuPrincipal{
+		position: relative;
+		display: inline-block;
+		width:269px;
+	}
+
+	.titulo-subMenu{
+		width:210px;
+		position: relative;
+		font-size: 14pt;
+		border-bottom: 2px solid #d7d7d7; 
+		padding-bottom: 5px;
+	}
+
+	.subMenu .menuList .menuItem{
+		margin-left: -20px;
+		font-size: 12pt;
+		height: 60px;
+		padding: 5px;
+		margin-bottom: -35px;
+	}
+
+	.categoryActive{
+		background-image: url(../img/menuItem-active.png);
+		background-repeat: no-repeat;
+	}
+
+	.categoryActive a{
+		color:#FFFFFF;
+	}
+
+	.menuItem-Active{
+		color: #ff505a;
+	}
+
+	/*------------------------------------------------------------------------------
+	// MENU
+	------------------------------------------------------------------------------*/
+
+
+	/*------------------------------------------------------------------------------
+	04 - MAIN
+	------------------------------------------------------------------------------*/
+
+	#main{
+		position: relative;
+		display: inline-block;
+		vertical-align: top;
+		margin-left:-4px;
+		margin-top: 15px;
+		min-height: 1300px;
+		padding-bottom: 30px;
+	}
+
+	.categoryTitle {
+		margin-left: 8px;
+		font-size: 18pt;
+		padding: 5px;
+		padding-top: 10px;
+		color: #FFFFFF;
+		background-image: url(../img/menuItem-active.png);
+		background-repeat: no-repeat;
+		
+	}
+
+	#twoInOne{
+		width: 100px;
+		background-position: -100px;
+	}
+
+	#notebook{
+		width: 150px;
+		background-position: -50px;
+	}
+
+
+	.bannerPrincipal img{
+		max-width: 100%;
+	}
+
+
+		/*------------------------------------------------------------------------------
+		05 - SLIDER PRINCIPAL
+		------------------------------------------------------------------------------*/
+		
+		#sliderPrincipal{
+			width: 807px;
+			height: 350px;
+			border-left: 3px solid #f06060;
+			background-color: #FFFFFF;
+
+		}
+
+		.slide{
+			position: relative;
+			display: inline-block;
+			vertical-align: top;
+			overflow: hidden;
+			width:610px;
+			height: 350px;
+		}
+
+		.txtSlide{
+			margin-left: 15px;
+			padding-top: 30px;
+			position: relative;
+			z-index: 2;
+		}
+
+		.imgSlide{
+			overflow: hidden;
+			float: right;
+			padding: 0;
+			position: relative;
+			z-index: 0;
+		}
+
+
+		.descripcionSlide{
+			margin-top: -15px;
+			font-size: 9pt;
+		}
+
+		.precioSlide{
+			font-size: 15pt;
+			font-weight: bolder;
+		
+		}
+
+		.shopNow{
+			padding: 0;
+			color: #ef8742;
+			font-size: 10pt;
+			font-weight: bold;
+
+		}
+
+		#menu-sliderPrincipal{
+			position: relative;
+			display: inline-block;
+			vertical-align: top;
+			margin: 0;
+			padding: 0;
+			margin-left: -3px;
+			margin-top: -3px;
+			width: 195px;
+		}
+
+		.menuItem-sliderPrincipal{
+			list-style: none;	
+			height: 85px;
+			margin-top: -10px;
+
+
+		}
+
+		.imagen-menuItem-sliderPrincipal{
+			position: relative;
+			width:195px;
+			height: 85px;
+			margin-top: -105px;
+			overflow: hidden;
+			z-index: 1;
+		
+		}
+
+		#tv{
+			background-image: url(../img/tv.png);
+			background-position: -2px;
+		}
+
+		#drones{
+			background-image: url(../img/drones.png);
+		}
+
+		#cases{
+			background-image: url(../img/cases.png);
+		}
+
+		#hddDisk{
+			background-image: url(../img/hddDisk.png);
+		}
+
+
+		.titulo-menuItem-sliderPrincipal{
+			color: #FFFFFF;
+			position: relative;
+			padding-top:25px; 
+			margin-left: 20px;
+			font-size: 12pt;
+			z-index: 2;
+		}
+
+
+		/*------------------------------------------------------------------------------
+		// SLIDER PRINCIPAL
+		------------------------------------------------------------------------------*/
+
+		/*------------------------------------------------------------------------------
+		06 - PRODUCTOS
+		------------------------------------------------------------------------------*/
+
+		#productos{
+			width: 810px;
+			margin: 0 auto;
+			margin-left: -6px;
+			margin-top: 10px;
+			min-height: 800px;
+		}
+
+		.producto{
+			position: relative;
+			display: inline-block;
+			margin: 6px;
+			width: 255px;
+			height: 325px;
+			background-image: url(../img/productosBg.png);
+			z-index: 3;
+		}
+
+		.imagenProducto{	
+			display: inline-block;
+			margin: 0 auto;
+			margin-top: -20px;
+			z-index: 4;
+
+		}
+
+		.logoProcesador{
+			position: relative;
+			display: inline-block;
+			z-index: 20;
+			margin-bottom: -130px;
+			margin-left: 170px;
+		}
+
+		.fotoProducto{
+			padding-top: 10px;
+			margin: 0 auto;
+			overflow: hidden;
+			text-align: center;
+		}
+
+		.fotoProducto img{
+			width: 90%;
+			margin: 0 auto;
+		}
+
+		.nombreProductoLista{
+			font-weight: normal;
+			font-size: 12pt;
+			text-align: center;
+			margin-top: -60px;
+		}
+
+		.nombreProductoLista span{
+			font-size: 10pt;
+		}
+
+		.infoProducto{
+			width: 250px;	
+			text-align: center;
+			margin-top: -40px;
+		}
+
+		.precioProducto{
+			position: relative;
+			display: inline-block;
+			vertical-align: middle;
+		}
+
+		.precioProducto .precio{
+			position: relative;
+			width: 85px;
+			font-size: 25pt;
+			text-align: center;
+			margin-left: -30px;
+			margin-right: 10px;
+			border-right: 2px solid #d7d7d7;
+			color: #f06060;
+			z-index: 4;
+		}
+
+		.precioProducto .moneda{
+			width: 85px;
+			margin-top: -45px;
+			font-size: 10pt;
+			color: #A4A4A4;
+		}
+
+		.viewProduct{
+			background-color: #ff505a;
+			vertical-align: middle;
+			margin-top: 15px;
+			text-align: center;
+			position: relative;
+			display: inline-block;
+			padding: 6px;
+			width: 100px;
+			font-size: 10pt;
+			border-radius: 7px;
+			text-decoration: none;
+			color: #FFFFFF;
+		}
+
+		/*------------------------------------------------------------------------------
+		// PRODUCTOS
+		------------------------------------------------------------------------------*/		
+		
+				/*------------------------------------------------------------------------------
+		07 - PRODUCT DESCRIPTION
+		------------------------------------------------------------------------------*/		
+		.productDescription,
+		.productDescription-Best{
+			background-color: #FFFFFF;
+			width: 810px;
+			height: 545px;
+			border-radius: 10px;
+		}
+
+		.productDescription{
+			box-shadow: 3px 3px 2px 2px #D8D8D8;
+		}
+
+		.ruta{
+			font-size: 10pt;
+			padding: 20px;
+			font-weight: normal;
+			margin-left: 10px;
+		}
+
+		.slider-productDescription{
+			background-color: #FFFFFF;
+			position: relative;
+			display: inline-block;
+			vertical-align: top;
+			width:350px;
+			height:430px;
+			margin-left: 30px;
+		}
+
+		.slide-productDescription{
+			border: 1px solid #D8D8D8;
+		}
+
+		.slide-productDescription img{
+			max-width: 100%;	
+		}
+
+		.menu-slider-productDescription{
+			text-align: center;
+			margin-top: 5px;
+			width:450px;
+			margin-left: -51px;
+		}
+
+		.back,
+		.fw{
+			width:20px;
+			display: inline-block;
+			vertical-align: middle;
+		}
+
+		.contenedorImagenes{
+			display: inline-block;
+			vertical-align: middle;
+			overflow: hidden;
+			width: 345px;
+			height: 65px;
+		}
+
+		.img-menu-sliderPD{
+			border: 1px solid #D8D8D8;
+			display: inline-block;
+		}
+
+		
+
+		.infoProducto{
+			position: relative;
+			display: inline-block;
+			vertical-align: top;
+			width:380px;
+			text-align: left;
+			margin-left: 30px;	
+		}
+
+		.nombreProducto{
+			font-weight: normal;
+			margin-top: 50px;
+			text-align: left;
+			font-size: 18pt;
+			border-bottom: 1px solid #D8D8D8;
+		}
+
+		.nombreProducto span{
+			font-size: 16pt;
+		}
+
+		.descripcionProducto{
+			font-size: 10pt;
+		}
+
+
+		.preciosProducto{
+			text-align: left;
+		}
+
+		.precioActual{
+			position: relative;
+			display: inline-block;
+			padding: 5px;
+			font-size: 20pt;
+
+		}
+
+		.precioActual span{
+			font-weight: bold;
+		}
+
+		.precioAnterior{
+			position: relative;
+			display: inline-block;
+			text-decoration: line-through;
+		}
+
+
+		.cantidad{
+			position: relative;
+			display: inline-block;
+			vertical-align: middle;
+			text-align: center;
+			width:60px;
+			height: 40px;
+			background-color: #FFFFFF;
+			border-radius: 10px;
+			border: 1px solid #d7d7d7;
+		}
+
+		.addToCart{
+			position: relative;
+			max-height: 40px;
+			display: inline-block;
+			vertical-align: middle;
+			padding-right: 10px;
+			background-color: #ff505a;
+			text-align: center;
+			border-radius: 5px;
+			color: #FFFFFF;
+		}
+
+		.addToCart img{
+			display: inline-block;
+			vertical-align: top;
+			
+		}
+
+		.addToCart p{
+			display: inline-block;
+			vertical-align: top;
+			margin-top: 10px;
+			border-left: 1px solid #d7d7d7;
+			padding-left: 5px;
+		}
+
+		/*------------------------------------------------------------------------------
+		//PRODUCT DESCRIPTION
+		------------------------------------------------------------------------------*/	
+	
+		/*------------------------------------------------------------------------------
+		09 - FACT TAG
+		------------------------------------------------------------------------------*/
+			.FactTag{
+				margin-top: 30px;
+				border-radius:5px;
+			}
+
+			.ft-Head{
+				background-color: #FFFFFF;
+				height: 150px;
+				border-top-right-radius: 5px;
+				border-top-left-radius: 5px;
+			}
+
+			.iconLaptop,
+			.ft-headTxt,
+			.asusLogo,
+			.procesadorTxt,
+			.procesadorImg,
+			.mf-feature,
+			.featureTxt,
+			.featureImg,
+			.addFeature,
+			.addFeatureImg,
+			.addFeatureTxt,
+			.ei-1{
+				position: relative;
+				display: inline-block;
+			}
+
+			.iconLaptop{
+				margin-left: 15px;
+				margin-top: 20px;
+			}
+			.asusLogo{
+				position: relative;
+				float: right;
+				margin-top: 25px;
+				margin-right: 10px;
+			}
+
+			.ft-headTxt{
+				vertical-align: middle;
+				font-size: 16pt;
+				margin-top: 40px;
+				color:#58595b;
+			}
+
+			.ft-headTxt span{
+				font-family: 'intel_clear_wlatbold';
+			}
+
+			.ft-Procesador{
+				margin-top: -16px;
+				background-color: #2f5393;
+				height: 150px;
+			}
+
+			.procesadorTxt{
+				margin-left: 20px;
+				font-family: 'intel_clear_wlatlight';
+				color: #FFFFFF;
+			}
+
+			.processorHead{
+				font-size: 20px;
+			}
+
+			.intel{
+				margin-top: -15px;
+				margin-bottom: -15px;
+				font-weight: bolder;
+				font-family: 'intel_clear_wlatbold';
+			}
+
+			.intel span{
+				font-weight: normal;
+			}
+
+			.subtitulo{
+				color: #f4dc2c;
+				font-weight: bold;
+			}
+
+			.procesadorImg{
+				float:right;
+				margin-right: 40px;
+				margin-top: 5px;
+			}
+
+			.ft-mainFeatures{
+				background-color: #FFFFFF;
+			}
+
+			.mf-feature-container{
+				display: inline-block;
+				vertical-align: top;
+				width: 49%;
+			}
+
+			.mf-feature{
+				position: relative;
+				width: 90%;
+				border-left: 1px solid #d4d4d4;
+				border-top: 1px solid #d4d4d4;
+			}
+	
+			.featureImg{
+				position: relative;
+				float: right;
+				margin-top: 25px;
+			}
+
+			.featureTxt{
+				position: relative;
+				margin-top: 25px;	
+				margin-left: 20px;
+				text-align: left;
+				font-size: 13pt;
+				color: #6c6c6e;
+				
+			
+			}
+
+			.featureTxt span{
+				font-family: 'intel_clear_wlatbold';
+				font-size: 18pt;
+			}
+
+			.ft-addFeatures{
+				background-color: #898989;
+				text-align: center;
+				width: 100%;
+			}
+			.addFeature{
+				width: 18%;
+				margin: 0 auto;
+				text-align: center;
+				color: #FFFFFF;
+				border-right: 1px solid #9d9d9d;
+				padding-right: 5px;
+			}
+
+			.addFeatureTxt{
+				vertical-align: middle;
+				text-align: left;
+				width: 40%;
+			}
+
+			.extraInfo{
+				margin-left: 30px;
+				color: #9d9d9d;
+			}
+
+			.extraInfo .ei-1{
+				display: inline-block;
+				vertical-align: top;
+				width:30%;	
+			}
+
+
+		/*------------------------------------------------------------------------------
+		// FACT TAG
+		------------------------------------------------------------------------------*/
+
+	/*------------------------------------------------------------------------------
+	// MAIN
+	------------------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------------------
+// CONTENT
+------------------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------------------
+FOOTER
+------------------------------------------------------------------------------*/
+#mainFooter{
+	background-color: #2f2f2f;
+	color: rgba(255, 255, 255, .4);
+	height: 100px;
+	padding-top: 30px;
+	text-align: center;
+}
+
+#mainFooter .logoFooter{
+	margin-bottom: -30px;
+}
+
+/*------------------------------------------------------------------------------
+FOOTER
+------------------------------------------------------------------------------*/
